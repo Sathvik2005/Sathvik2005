@@ -1,71 +1,63 @@
-<h1 align="center">Hi, I’m <strong>Kanithi Satya Sathvik</strong></h1>
+<h1 align="center">Kanithi Satya Sathvik</h1>
 
 <p align="center">
-Final-year B.Tech student in Computer Science (AI & ML) at VIT-AP University  
-Focused on Machine Learning, NLP, Data Analytics, and real-world AI applications  
+  <strong>AI Systems · LLM Engineering · AI-Native Product Building</strong><br/>
+  I build AI applications that are inspectable, testable, and useful in real workflows.
+</p>
+
+<p align="center">
+  <a href="https://github.com/Sathvik2005">GitHub</a> ·
+  <a href="mailto:kanithisathvik@gmail.com">Email</a>
 </p>
 
 ---
 
-## About Me
+## What I work on
 
-I am an AI/ML developer passionate about transforming data into meaningful insights and usable products.  
-My work focuses on building:
-- Natural language processing systems
-- Time-series forecasting models
-- Interactive dashboards and deployable ML apps
+My focus is the engineering around AI systems: retrieval and agent workflows, evidence-grounded outputs, deterministic safeguards, evaluation, and product-oriented tooling. During my AI engineering internship, I work with document-processing workflows, business rules, test datasets, and end-to-end automation.
 
-I enjoy solving real-world problems in healthcare, environment, and enterprise domains.
+## Selected projects
 
----
+### [EvidenceOS](https://github.com/Sathvik2005/evidenceos)
+**Evidence-grounded research workflow** · Python, FastAPI, LangGraph, PostgreSQL, React
 
-## Tech Stack
+Turns a complex question into claims, sourced evidence, supporting and contradicting relationships, and a visible claim history. The workflow validates verbatim evidence excerpts, keeps confidence separate from evidence-supported state, and records state changes rather than silently overwriting them.
 
-**Languages:** Python, Java, SQL, HTML/CSS  
-**ML & Data:** Pandas, NumPy, scikit-learn, TensorFlow, XGBoost, Time-Series Analysis, EDA  
-**Tools:** MySQL, Git, GitHub, VS Code, Jupyter, Streamlit  
-**Strengths:** Model Deployment, Data Cleaning, Hyperparameter Tuning  
-**Soft Skills:** Problem-Solving, Communication, Leadership, Adaptability  
+### [MemoryOps](https://github.com/Sathvik2005/memoryops-for-schools)
+**Persistent memory for agents** · TypeScript, Express, PostgreSQL, pgvector, Amazon Bedrock
 
----
+A memory lifecycle for retrieving prior experiences, proposing actions, requiring human approval before side effects, observing outcomes, and writing verified experience back to durable memory. Includes provenance checks and contradiction/supersession-aware retrieval.
 
-## Featured Projects
+### [NeuroResearch](https://github.com/Sathvik2005/NeuroResearch-Autonomous-AI-Research-Engine.NeoStatas-use-case.)
+**RAG + web research assistant** · Python, Streamlit, FAISS, Sentence Transformers, Tavily
 
-### AI Resume Screening System
-Automates JD–resume matching using NLP and similarity scoring  
-• Processed over 200 resumes  
-• Reduced candidate shortlisting time by 60%
+Combines retrieval over uploaded documents with web search and model-backed synthesis. Supports query routing, source attribution, and structured research modes.
 
-### Heart Disease Prediction
-Trained ML models on 1,000+ patient records  
-• Achieved 90% accuracy
+### [Codebase Lens](https://github.com/Sathvik2005/codebase-lens)
+**Developer-facing source analysis** · Next.js, TypeScript
 
-### AQI Forecasting Application
-Time-series regression and Streamlit deployment  
-• Achieved 85% air-quality prediction accuracy
+Analyzes uploaded Python, JavaScript, and TypeScript code to surface symbols, imports, likely test-call gaps, and requirement traceability. Uses explicitly disclosed heuristics rather than claiming full AST parsing or execution-based coverage.
 
-### Thyroid Disease Classification
-Feature engineering and XGBoost optimization  
-• Achieved 92% accuracy on 3,500+ records
+### [StudioPulse](https://github.com/Sathvik2005/studio-pulse-for-agentic-film-)
+**Governed multi-agent operations prototype** · Python, FastAPI, ClickHouse, React
 
----
+An explicit workflow over synthetic streaming telemetry. Uses typed analytics tools, structured agent outputs, deterministic transitions, anomaly checks, and an audit trail; operational action execution and some governance integrations remain prototype-level.
 
-## Certifications
+### [CareLoad](https://github.com/Sathvik2005/careload)
+**Full-stack healthcare workload research prototype** · FastAPI, PostgreSQL/SQLite, Next.js, TypeScript
 
-Oracle Cloud Infrastructure – Generative AI Certified Professional (2025)
+Tracks the practical workload of managing healthcare through role-scoped patient and professional flows, evidence-linked assessments, and trend insights. The current analysis provider is deterministic/offline, with schema validation and a safety filter.
 
----
+## Technical interests
 
-## Current Goals
+**Languages:** Python, TypeScript/JavaScript, SQL  
+**AI systems:** RAG, embeddings, agent workflows, structured outputs, source grounding, human-in-the-loop controls, evaluation  
+**Engineering:** FastAPI, REST APIs, PostgreSQL, pgvector, React, Next.js, pytest, Playwright, Git
 
-• Explore LLM fine-tuning and model deployment  
-• Build agent-based tools for intelligent search and automation  
-• Expand open-source contributions and push code regularly
+## Certification
+
+Oracle Cloud Infrastructure - Generative AI Certified Professional (2025)
 
 ---
 
-## Connect With Me
-
-Email: kanithisathvik@gmail.com  
-Location: Anakapalle, Andhra Pradesh  
-Profiles: LinkedIn | GitHub | LeetCode
+*Projects are prototypes and engineering experiments unless a repository explicitly documents otherwise. Repository READMEs describe intended/current behavior and known limitations; I avoid claiming production adoption or performance gains without measured evidence.*
